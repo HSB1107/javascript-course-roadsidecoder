@@ -1,0 +1,18 @@
+.shape{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    background: linear-gradient(
+    to bottom right,   /* diagonal AC */
+    blue 50%,
+    pink 50%
+  );
+  
+}
+
+.board-container{
+    height: 600px;
+    width: 400px;
+    border: 2px solid #333;
+    position: relative;
+}
